@@ -381,9 +381,67 @@ h4 {
 
 footer{
   background-color: #083247;
-  height: 300px;
+  height: 445px;
   margin-top: 60px;
   border-top-left-radius: 44px;
   border-top-right-radius: 44px;
   box-shadow: 0 2px 20px #707070;
+
+ 
+  padding: 40px 90px; /*top left bottom right */
+}
+.topSections{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sectionOne{
+  width: 319px;
+}
+.sectionOne p{
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+}
+
+.sectionTwo ul{
+  font-size: 16px;
+  color: white;
+  line-height: 35px;
+  list-style: none;
+}
+
+.sectionThree ul{
+  font-size: 16px;
+  color: white;
+  line-height: 35px;
+  list-style: none;
+}
+.footerLogo{
+    height: 59px;
+    width: 120px;
+    background-color: #707070;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.sectionFour{
+  width: 319px;
+  font-size: 16px;
+  color: white;
+  line-height: 35px;
+}
+.allReserved{
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  line-height: 150px;
+}
+
+.end{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: white;
+  padding: 0 44px; 
 }
